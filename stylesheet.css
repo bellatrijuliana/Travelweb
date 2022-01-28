@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+    opacity : 0.7;
+}
+
+li:hover {
+    opacity : 1;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+
+.clear {
+  clear: left;
+}
+.main {
+  main: left;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(to right, rgb(61, 61, 235),rgb(115, 204, 255));
+    border-bottom: 5px solid rgb(115, 204, 255) ;
+    height: 70px;
+    padding: auto 0px;
+    color: white;
+    position: fixed;
+    z-index: 999;
+}
+
+.header-left h1 {
+    float: left;
+    font-size: 26px;
+    text-shadow: 4px 4px 5px rgb(146, 144, 144);
+}
+
+.header-right {
+  float: right
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-top {
+    height: 450px;
+    background: url(image/adventure.jpg);
+    background-position: center;
+    text-align: justify;
+    color: white;
+    border-bottom: 5px solid rgb(115, 204, 255) ;
+}
+
+.main-top h1{
+    margin-top: 150px;
+    letter-spacing: 13px;
+    text-shadow: 2px 2px 5px rgb(146, 144, 144);
+}
+
+.main-top h2 {
+    font-size: 36px;
+    line-height: 5px;
+    text-shadow: 4px 4px 5px rgb(146, 144, 144);
+}
+
+.order {
+    background: linear-gradient(to right, rgb(115, 204, 255),rgb(61, 61, 235));
+    height: 70px;
+    padding: auto 0px;
+    color: white;
+}
+
+.order h1 {
+    float: left;
+    font-size: 20px;
+    margin: 20px;
+    text-shadow: 4px 4px 5px rgb(146, 144, 144);
+}
+
+.order form {
+    float: right;
+    margin: 20px;
+}
+
+.order input {
+    height: 30px;
+    width: 250px;
+}
+
+.btn-order {
+    height: 36px;
+    background-color: rgb(115, 204, 255);
+    padding: 0px 20px;
+    color: white;
+    border: 0;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.order a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-order:hover {
+    opacity: 1
+}
+
+/* batas style header. */
+
+.activities{
+	background-color: #f9f9f9;
+}
+.activities .container{
+	width: 80%;
+	margin: auto;
+	padding: 50px 0;
+	font-family: arial,sans-serif;
+	text-align: center;
+}
+.activities h2 .judul{
+	font-size: 30px;
+	margin: 5px 0 20px;
+}
+.activities h3 {
+	color: #3498db;
+	margin: 0;
+}
+.activities  p{
+	color: #717171;
+	width: 55%;
+	margin: 0 auto 50px;
+	line-height: 25px;
+	font-weight: normal;
+}
+.activities .card{
+	display: flex;
+	justify-content: center;
+	height: 390px;
+}
+.activities .card img{
+	width: 300px;
+	height: 390px;
+	-webkit-filter: brightness(.5);
+	-o-filter: brightness(.5);
+	filter: brightness(.5);
+	border-radius: 3px;
+}
+.activities .text p{
+	width: 100%;
+	font-size: 15px;
+	line-height: 20px;
+	color: #eaeaea;
+	opacity: .8;
+}
+.activities .text{
+	position: absolute;
+	top: 0;
+	text-align: left;
+	margin: 110px 30px;
+	height: 50px;
+}
+.activities .text h3{
+	color: rgb(250,250,250);
+	margin: 10px 0;
+	display: flex;
+}
+.activities .text img{
+	width: 30px;
+	height: 30px;
+	-webkit-filter: brightness(1);
+	-o-filter: brightness(1);
+	filter: brightness(1);
+
+}
+.activities .gambar{
+	position: relative;
+	width: 300px;
+	margin: 0 20px;
+	transition: 0.3s ease;
+}
+.activities .gambar:hover{
+	transform: translateY(-30px);
+}
+
+.konten{
+	height: 400px;
+}
+
+.atas{
+	text-align: center;
+	margin-top: 30px;
+    margin-bottom: 20px;
+    color: #3498db;
+    font-size: 24px;
+}
+
+.deskripsi p{
+	color:#3498db;
+	font-weight: bold;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.tengah{
+	float: left;
+	width: 25%;
+}
+
+.tengah img {
+	padding: 0px 0px;
+}
+
+.tengah p {
+	padding: 0px 0px;
+  text-align: center;
+}
+
+/* Batas style main body */
+
+footer{
+  background-color: #3498db;
+	color: white;
+}
+
+.foot{
+    height: 200px;
+}
+
+.foot a{
+	text-decoration: none;
+	color: white;
+}
+
+.bank{
+	margin-right: 10px;
+	float: center;
+	margin-left: 10px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
